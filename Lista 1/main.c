@@ -1,12 +1,13 @@
 /*
   *****
-  Programa com 3 alturas j· atribuÌdas, que mostra a soma e a mÈdia das 3 alturas.
-  DÈbora Rodrigues
+  Programa com 3 alturas j√° atribu√≠das, que mostra a soma e a m√©dia das 3 alturas.
+  D√©bora Rodrigues
   *****
 */
 
 #include <stdio.h>
 #include <locale.h>
+
 
 int main ()
 {
@@ -20,8 +21,8 @@ int main ()
   float media = somatoria / 3;
 
   printf("\nAlturas:\n%.0f cm\n%.0f cm\n%.0f cm",minha_altura, altura_Juan, altura_Nilton);
-  printf("\n\nA soma das alturas È: %.1f cm", somatoria);
-  printf("\nA mÈdia das 3 alturas È: %.2f cm\n\n", media);
+  printf("\n\nA soma das alturas √©: %.1f cm", somatoria);
+  printf("\nA m√©dia das 3 alturas √©: %.2f cm\n\n", media);
 
   return 0;
 }
